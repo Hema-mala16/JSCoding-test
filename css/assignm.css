@@ -1,0 +1,18 @@
+form{
+    height: 500px;
+    width: 600px;
+    padding-left: 200px;
+}
+.button{
+    margin-top: 1em;
+         height: 50px;
+     width: 100px;
+    background-color: blue;
+}
+
+input[type]:invalid{
+    border: 2px solid red;
+}
+input[type]:valid{
+    border: 2px solid green;
+}
